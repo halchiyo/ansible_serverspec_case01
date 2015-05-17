@@ -1,0 +1,19 @@
+﻿---
+# sample playbook
+- name : Sample
+
+  hosts: stage
+
+  sudo : yes
+
+  pre_tasks: 
+    - shell: echo 'hello'
+
+  roles:
+    - common
+
+  tasks:
+    - shell: echo 'still busy'
+
+  post_tasks: 
+    - shell: echo 'goodbye'

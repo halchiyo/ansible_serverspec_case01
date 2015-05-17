@@ -1,0 +1,4 @@
+--- 
+- 
+  playbook : /var/lib/jenkins/jobs/ansible_serverspec_case01/workspace/playbook/site_stage.yml
+  inventory: /var/lib/jenkins/jobs/ansible_serverspec_case01/workspace/playbook/stage

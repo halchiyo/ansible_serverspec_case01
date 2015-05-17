@@ -1,0 +1,7 @@
+[stage]
+# hostname	ansible_ssh_host=192.168.123.xx	ansible_ssh_user=xxxx	ansible_sudo_pass=xxxx	ansible_ssh_private_key_file=<path to rsa>
+stage01	ansible_ssh_host=192.168.123.101	ansible_ssh_user=ansible01
+stage02	ansible_ssh_host=192.168.123.102	ansible_ssh_user=ansible01
+stage03	ansible_ssh_host=192.168.123.103	ansible_ssh_user=ansible01
+stage04	ansible_ssh_host=192.168.123.104	ansible_ssh_user=ansible01
+stage05	ansible_ssh_host=192.168.123.105	ansible_ssh_user=ansible01

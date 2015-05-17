@@ -1,0 +1,5 @@
+--tty
+--color
+--format documentation
+--format RspecJunitFormatter --out reports/rspec.xml
+--format html --out reports/rspec.html
